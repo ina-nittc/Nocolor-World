@@ -1,0 +1,199 @@
+body {
+    font-family: 'Noto Serif JP', serif;
+    line-height: 1.75em;
+}
+
+p {
+    margin: 1em;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+h3 {
+    margin-bottom: 1em;
+    font-size: 20px;
+}
+
+
+/* ヘッダー */
+header {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    right: 0;
+    left: 0;
+    border-bottom: solid 1px;
+}
+
+/* ロゴ */
+.logo img {
+    width: 70px;
+    height: auto;
+}
+
+/* タイトル  */
+.title h1 {
+    margin: 0;
+    font-size: 20px;
+    justify-content: center;
+}
+
+.title img {
+    height: auto;
+    max-width: 200px;
+}
+
+/* ハンバーガーボタン */
+.menu-btn {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    margin: 0 10px;
+}
+
+.bar {
+    width: 30px;
+    height: 3px;
+    background-color: black;
+    margin: 3px 0;
+}
+
+/* メイン */
+main {
+    padding: 0 1.5em;
+}
+
+/* GIF */
+.gif-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.gif-container img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 1em;
+}
+
+
+/* 概要説明 */
+.description {
+    text-align: left;
+}
+
+.description p {
+    margin-top: 1em;
+}
+
+/* 2行目の見出し */
+.second-line {
+    margin-left: 20px;
+}
+
+/* コンテンツ */
+.contents {
+    text-align: center;
+}
+
+.contents img {
+    margin-top: 2em;
+}
+
+/* 予約 */
+.reservation {
+    text-align: center;
+}
+
+a.reservation-btn {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    width: 100px;
+    margin: auto;
+    margin-top: 2em;
+    padding: 1rem 4rem;
+    font-weight: bold;
+    border: 2px solid #000000;
+    color: #000000;
+    transition: 0.5s;
+}
+
+a.reservation-btn:hover {
+    color: #ffffff;
+    background: #000000;
+}
+
+/* マップ */
+.map-container {
+    margin-top: 5em;
+    text-align: center;
+}
+
+/* マップ画像 */
+.map-container img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 1em;
+}
+
+
+
+
+footer {
+    background-color: black;
+    
+}
+
+.sns-btn img{
+    display: flex;
+    justify-content: flex-end;
+    height: auto;
+    max-width: 25px;
+    margin-right: 10px;
+}
+
+.sns-btn-container a > img{
+    height: auto;
+    max-width: 25px;
+    margin-right: 10px;
+}
+
+
+
+
+
+
+
+
+/* メディアクエリ: レスポンシブデザイン用 */
+@media (max-width: 768px) {
+
+    /* ハンバーガーボタンが表示される場合 */
+    .menu-btn {
+        display: flex;
+    }
+
+    /* ハンバーガーボタンが表示される場合は、メニューを非表示にする */
+    .menu {
+        display: none;
+    }
+}
+
+/* メディアクエリで指定した幅よりも大きい場合（ハンバーガーボタンが非表示の場合） */
+@media (min-width: 769px) {
+
+    /* ハンバーガーボタンを非表示にする */
+    .menu-btn {
+        display: none;
+    }
+
+    /* メニューを表示 */
+    .menu {
+        display: block;
+    }
+}
