@@ -17,11 +17,10 @@ body {
 
 .blackline{
     border: 1px solid #303030;
-    margin: 0 15px;
 }
 
 h2{
-    font-size: 130%;
+    font-size: 180%;
     font-weight: bold;
     margin: 15px 0 5px 0;
 }
@@ -154,6 +153,10 @@ li::marker{
   .panel{
     display:none;
   }
+
+  .tab-panel{
+    margin-top: 3%;
+  }
   .tab.muho{
     background:#ffffff;
     color:#000000;
@@ -186,7 +189,6 @@ li::marker{
   }
   .panelFA.biyon{
     display:flex;
-    width: 100%;
     margin: 0 0 0 15%;
   }
   .panel_img{
