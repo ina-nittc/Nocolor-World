@@ -29,6 +29,18 @@ h2{
     margin: 0 8%;
 }
 
+.video-box{
+    margin-top: 10px;
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.video-box video{
+    width: 90%;
+    height: auto;
+}
+
 .access-map{
     display: flex;
     text-align: center;
@@ -40,17 +52,6 @@ h2{
     height: auto;
     margin-left: 5%;
     margin-right: 5%;
-}
-
-.video-box{
-    width: 100%;
-    height: auto;
-    text-align: center;
-}
-
-.video-box video{
-    width: 90%;
-    height: auto;
 }
 
 ul{
