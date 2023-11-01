@@ -42,6 +42,17 @@ h2{
     margin-right: 5%;
 }
 
+.video-box{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.video-box video{
+    width: 90%;
+    height: auto;
+}
+
 ul{
     margin: 0 8%;
 }
